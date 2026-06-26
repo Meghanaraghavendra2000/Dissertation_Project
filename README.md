@@ -1,4 +1,4 @@
-[12:14 pm, 26/6/2026] Pritam Da Writing Ninja: # Healthcare Insurance Fraud Detection through Class Imbalance Handling and Explainable AI
+# Healthcare Insurance Fraud Detection through Class Imbalance Handling and Explainable AI
 
 ## Overview
 This repository contains the full Python implementation for the dissertation project investigating how class imbalance handling techniques affect SHAP explanation stability in healthcare insurance fraud detection — experimentally testing the explainability-imbalance paradox identified by Zafar and Wu (2026).
@@ -66,23 +66,3 @@ Python, Scikit-learn, XGBoost, SHAP, LIME, imbalanced-learn, Google Colab
 
 ## Reproducibility
 All experiments use fixed random seeds. Implementation follows 80/20 stratified train-test split with 5-fold stratified cross validation. Imbalance techniques applied to training set only to prevent data leakage.
-[12:14 pm, 26/6/2026] Pritam Da Writing Ninja: Thing 2 — Add Markdown Headings To Notebook
-Open your Google Colab notebook. Add these as markdown cells between each section — do not delete any code:
-## 1. Library Installation and Imports
-## 2. Dataset File Paths
-## 3. Dataset 1 — Loading and Exploration
-## 4. Dataset 1 — Feature Engineering and Preprocessing
-## 5. Dataset 1 — Model Training
-## 6. Dataset 1 — 5-Fold Stratified Cross Validation
-## 7. Dataset 1 — SHAP Explainability Analysis
-## 8. Dataset 1 — SHAP Stability Analysis
-## 9. Dataset 1 — Statistical Significance Testing
-## 10. Dataset 2 — Loading and Exploration
-## 11. Dataset 2 — Feature Engineering and Preprocessing
-## 12. Dataset 2 — Model Training
-## 13. Dataset 2 — 5-Fold Stratified Cross Validation
-## 14. Dataset 2 — SHAP Explainability Analysis
-## 15. Dataset 2 — SHAP Stability Analysis
-## 16. Dataset 2 — Statistical Significance Testing
-## 17. Cross-Dataset Comparison
-## 18. LIME Secondary Explainability Analysis
